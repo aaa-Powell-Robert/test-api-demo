@@ -1,0 +1,115 @@
+{
+	"id": "451e40fd-453e-43b8-8138-b8a7c0e6c067",
+	"name": "RestAPI-Demo",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"41872c50-c4ad-4c1f-af94-05909487ef0f",
+		"95ae46ea-ca28-4c2a-b11e-04ec12d47af0"
+	],
+	"folders": [
+		{
+			"id": "41872c50-c4ad-4c1f-af94-05909487ef0f",
+			"name": "ICNDB",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "451e40fd-453e-43b8-8138-b8a7c0e6c067",
+			"folder": null,
+			"order": [
+				"406e369f-f867-413e-ba0d-62d5701eead6",
+				"af305e6e-1ee1-438f-bda4-b4c2da55b1de"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "95ae46ea-ca28-4c2a-b11e-04ec12d47af0",
+			"name": "jsonplaceholder.typicode.com",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "451e40fd-453e-43b8-8138-b8a7c0e6c067",
+			"folder": null,
+			"order": [
+				"b75ccac2-461b-442f-9d70-415e5087585c",
+				"e73b72eb-4f02-4da8-b599-b9badb52be29"
+			],
+			"folders_order": []
+		}
+	],
+	"requests": [
+		{
+			"id": "406e369f-f867-413e-ba0d-62d5701eead6",
+			"name": "Get Joke 100",
+			"url": "http://api.icndb.com/jokes/100",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "41872c50-c4ad-4c1f-af94-05909487ef0f",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "af305e6e-1ee1-438f-bda4-b4c2da55b1de",
+			"name": "Get all Jokes",
+			"url": "http://api.icndb.com/jokes",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "41872c50-c4ad-4c1f-af94-05909487ef0f",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "b75ccac2-461b-442f-9d70-415e5087585c",
+			"name": "Get Post 1",
+			"url": "http://jsonplaceholder.typicode.com/posts/1",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "95ae46ea-ca28-4c2a-b11e-04ec12d47af0",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e73b72eb-4f02-4da8-b599-b9badb52be29",
+			"name": "Get all Posts",
+			"url": "http://jsonplaceholder.typicode.com/posts",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": [],
+			"folder": "95ae46ea-ca28-4c2a-b11e-04ec12d47af0",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
