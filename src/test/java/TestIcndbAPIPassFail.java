@@ -6,7 +6,7 @@ import io.restassured.RestAssured;
 
 import org.hamcrest.Matchers;
 
-public class TestIcndbAPICategories {
+public class TestIcndbAPIPassFail {
 
 	@Test 
 	public void testIcndbAPICategoriesPASS() {

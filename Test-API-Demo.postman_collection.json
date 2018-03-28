@@ -8,7 +8,8 @@
 	"order": [],
 	"folders_order": [
 		"41872c50-c4ad-4c1f-af94-05909487ef0f",
-		"95ae46ea-ca28-4c2a-b11e-04ec12d47af0"
+		"95ae46ea-ca28-4c2a-b11e-04ec12d47af0",
+		"cdeaeac8-549e-487e-8313-07df24e2cec1"
 	],
 	"folders": [
 		{
@@ -21,7 +22,22 @@
 			"folder": null,
 			"order": [
 				"406e369f-f867-413e-ba0d-62d5701eead6",
-				"af305e6e-1ee1-438f-bda4-b4c2da55b1de"
+				"af305e6e-1ee1-438f-bda4-b4c2da55b1de",
+				"8b97c2aa-ac26-42ff-aa02-862b7f1a3124"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "cdeaeac8-549e-487e-8313-07df24e2cec1",
+			"name": "MyJSON",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "451e40fd-453e-43b8-8138-b8a7c0e6c067",
+			"folder": null,
+			"order": [
+				"6525e4c5-27ba-48a9-a569-b30e947d216d",
+				"7c0b73c0-a3d7-4f83-97af-13f8fb8d2352"
 			],
 			"folders_order": []
 		},
@@ -45,6 +61,69 @@
 			"id": "406e369f-f867-413e-ba0d-62d5701eead6",
 			"name": "Get Joke 100",
 			"url": "http://api.icndb.com/jokes/100",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "41872c50-c4ad-4c1f-af94-05909487ef0f",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "6525e4c5-27ba-48a9-a569-b30e947d216d",
+			"name": "POST Test 1",
+			"url": "http://myjson.com/api",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "cdeaeac8-549e-487e-8313-07df24e2cec1",
+			"rawModeData": "{\"key\":\"value\"}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "7c0b73c0-a3d7-4f83-97af-13f8fb8d2352",
+			"name": "GET Test 1",
+			"url": "http://api.myjson.com/bins/1a83v3",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "cdeaeac8-549e-487e-8313-07df24e2cec1",
+			"rawModeData": "{\"key\":\"value\"}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8b97c2aa-ac26-42ff-aa02-862b7f1a3124",
+			"name": "Get categories",
+			"url": "http://api.icndb.com/categories",
 			"description": "",
 			"data": null,
 			"dataMode": "params",
